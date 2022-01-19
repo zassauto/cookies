@@ -7,7 +7,7 @@ var cookie = '🍪';
 
 // run plugin with config object
 cc.run({
-    current_lang : 'en',
+    current_lang : 'fr',
     autoclear_cookies : true,                   // default: false
     theme_css: '../src/cookieconsent.css',
     cookie_name: 'cc_cookie_demo1',             // default: 'cc_cookie'
@@ -73,16 +73,16 @@ cc.run({
     },
 
     languages: {
-        'en': {
+        'fr': {
             consent_modal: {
-                title: cookie + ' We use cookies!',
-                description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button type="button" data-cc="c-settings" class="cc-link">Let me choose</button>',
+                title: cookie + ' Nous utilisons des cookies ! ',
+                description: 'Bonjour, ce site utilise des cookies essentiels pour assurer son bon fonctionnement et des cookies de suivi pour comprendre comment vous interagir avec elle. Ce dernier ne sera fixé qu après accord.<button type="button" data-cc="c-settings" class="cc-link">Laisse-moi choisir</button>',
                 primary_btn: {
-                    text: 'Accept all',
+                    text: 'Accepter tout',
                     role: 'accept_all'              // 'accept_selected' or 'accept_all'
                 },
                 secondary_btn: {
-                    text: 'Reject all',
+                    text: 'Tout rejeter',
                     role: 'accept_necessary'        // 'settings' or 'accept_necessary'
                 }
             },
@@ -100,19 +100,19 @@ cc.run({
                 ],
                 blocks: [
                     {
-                        title: 'Cookie usage 📢',
-                        description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="#" class="cc-link">privacy policy</a>.'
+                        title: 'Utilisation des cookies 📢',
+                        description: ''J'utilise des cookies pour assurer les fonctionnalités de base du site Web et pour améliorer votre expérience en ligne. Vous pouvez choisir pour chaque catégorie de vous inscrire ou de vous désinscrire quand vous le souhaitez. Pour plus de détails relatifs aux cookies et autres données sensibles, veuillez lire l intégralité <a href="#" class="cc-link">privacy policy</a>.'
                     }, {
-                        title: 'Strictly necessary cookies',
-                        description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly',
+                        title: 'Cookies strictement nécessaires',
+                        description: 'Ces cookies sont indispensables au bon fonctionnement de mon site internet. Sans ces cookies, le site Web ne fonctionnerait pas correctement',
                         toggle: {
                             value: 'necessary',
                             enabled: true,
                             readonly: true          // cookie categories with readonly=true are all treated as "necessary cookies"
                         }
                     }, {
-                        title: 'Performance and Analytics cookies',
-                        description: 'These cookies allow the website to remember the choices you have made in the past',
+                        title: 'Cookies de performance et d'analyse',
+                        description: 'Ces cookies permettent au site Web de se souvenir des choix que vous avez faits dans le passét',
                         toggle: {
                             value: 'analytics',     // there are no default categories => you specify them
                             enabled: false,
@@ -134,16 +134,16 @@ cc.run({
                             }
                         ]
                     }, {
-                        title: 'Advertisement and Targeting cookies',
-                        description: 'These cookies collect information about how you use the website, which pages you visited and which links you clicked on. All of the data is anonymized and cannot be used to identify you',
+                        title: 'Cookies publicitaires et de ciblage',
+                        description: 'Ces cookies collectent des informations sur la façon dont vous utilisez le site Web, les pages que vous avez visitées et les liens sur lesquels vous avez cliqué. Toutes les données sont anonymisées et ne peuvent pas être utilisées pour vous identifier',
                         toggle: {
                             value: 'targeting',
                             enabled: false,
                             readonly: false
                         }
                     }, {
-                        title: 'More information',
-                        description: 'For any queries in relation to my policy on cookies and your choices, please <a class="cc-link" href="https://orestbida.com/contact">contact me</a>.',
+                        title: 'Plus d information',
+                        description: 'Pour toute question relative à ma politique en matière de cookies et à vos choix, veuillez <a class="cc-link" href="https://orestbida.com/contact">Contactez moi</a>.',
                     }
                 ]
             }
