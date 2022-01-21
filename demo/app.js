@@ -141,7 +141,16 @@ cc.run({
                             enabled: false,
                             readonly: false
                         }
-                    }, {
+                    },
+                    {
+                        title: 'Gestion de nos actions publicitaires personnalisée rajouter les boutons ',
+                        description: 'Gestion de nos actions publicitaires personnalisées « rajouter les boutons »',
+                        toggle: {
+                            value: 'targeting',
+                            enabled: false,
+                            readonly: false
+                        }
+                    },{
                         title: '.',
                         description: '.',
                     }
