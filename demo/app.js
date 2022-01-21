@@ -143,7 +143,7 @@ cc.run({
                         }
                     }, {
                         title: '.',
-                        description: '<div id="s-bns"><button type="button" id="s-all-bn" class="c-bn">Accept all</button><button type="button" id="s-rall-bn" class="c-bn">Reject all</button><button type="button" id="s-sv-bn" class="c-bn">Save settings</button></div>',
+                        description: '.',
                     }
                 ]
             }
