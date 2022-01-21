@@ -49,11 +49,11 @@ cc.run({
     onChange: function (cookie, changed_preferences) {
         console.log('onChange fired ...');
 
-        // If analytics category's status was changed ...
-        if (changed_preferences.indexOf('analytics') > -1) {
+        // If ads category's status was changed ...
+        if (changed_preferences.indexOf('ads') > -1) {
 
-            // If analytics category is disabled ...
-            if (!cc.allowedCategory('analytics')) {
+            // If ads category is disabled ...
+            if (!cc.allowedCategory('ads')) {
 
                 // Disable gtag ...
                 console.log('disabling gtag')
@@ -63,7 +63,7 @@ cc.run({
 
                 gtag('consent', 'default', {
                     'ad_storage': 'denied',
-                    'analytics_storage': 'denied'
+                    'ads_storage': 'denied'
                 });
             }
         }
@@ -111,10 +111,10 @@ cc.run({
                             readonly: true          // cookie categories with readonly=true are all treated as "necessary cookies"
                         }
                     }, {
-                        title: 'Performance and Analytics cookies',
+                        title: 'Performance and ads cookies',
                         description: 'These cookies allow the website to remember the choices you have made in the past',
                         toggle: {
-                            value: 'analytics',     // there are no default categories => you specify them
+                            value: 'ads',     // there are no default categories => you specify them
                             enabled: false,
                             readonly: false
                         },
