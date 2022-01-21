@@ -24,20 +24,7 @@
   gtag('config', 'AW-1068309516');
 </script>
 
-	<!-- Event snippet for Prospect conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script type="text/plain" data-cookiecategory="analytics">
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-	gtag('event', 'conversion', { 'send_to': 'AW-1068309516/YwzmCJb2QxCMuLT9Aw', 'event_callback': callback });
-	//gtag('event', 'conversion', { 'send_to': 'AW-1068309516/7DNQCJv7qeEBEIy4tP0D', 'value': 7.77, 'currency': 'EUR' });
-  return false;
-}
-</script>
+
 
 	
 	
