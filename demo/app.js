@@ -75,8 +75,8 @@ cc.run({
     languages: {
         'en': {
             consent_modal: {
-                title: cookie + ' We use cookies!',
-                description: 'Hi, this website uses essential cookies to ensure its proper operation and tracking cookies to understand how you interact with it. The latter will be set only after consent. <button type="button" data-cc="c-settings" class="cc-link">Let me choose</button>',
+                title: cookie + 'Le respect de votre vie privée est notre priorité',
+                description: 'Notre site internet et les sociétés partenaires utilisent des cookies. Ces cookies nous permettent de personnaliser votre expérience utilisateur, mesurer l’audience, collecter des statistiques de visite pour l’optimisation de la publicité et l’amélioration des contenus. Vous pouvez gérer vos préférences des cookies, accepter ou refuser le dépôt de l’ensemble des cookies. Un lien &quot;Gérer mes cookies&quot; sur notre site vous permet également de modifier vos choix à tout moment.',
                 primary_btn: {
                     text: 'Accept all',
                     role: 'accept_all'              // 'accept_selected' or 'accept_all'
@@ -142,8 +142,8 @@ cc.run({
                             readonly: false
                         }
                     }, {
-                        title: 'More information',
-                        description: 'For any queries in relation to my policy on cookies and your choices, please <a class="cc-link" href="https://orestbida.com/contact">contact me</a>.',
+                        title: '.',
+                        description: '.',
                     }
                 ]
             }
