@@ -120,7 +120,7 @@ cc.run({
                         },
                         cookie_table: [
                             {
-                                col1: '^_ga',
+                                col1: '^_gcl_au',
                                 col2: 'google.com',
                                 col3: '2 years',
                                 col4: 'description ...',
