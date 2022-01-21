@@ -100,19 +100,19 @@ cc.run({
                 ],
                 blocks: [
                     {
-                        title: 'Cookie tiu 📢',
-                        description: 'I use cookies to ensure the basic functionalities of the website and to enhance your online experience. You can choose for each category to opt-in/out whenever you want. For more details relative to cookies and other sensitive data, please read the full <a href="#" class="cc-link">privacy policy</a>.'
+                        title: 'Gérer vos préférences relatives aux cookies sur le site Zénith assurance 📢',
+                        description: '.'
                     }, {
-                        title: 'Strictly necessary cookies',
-                        description: 'These cookies are essential for the proper functioning of my website. Without these cookies, the website would not work properly',
+                        title: 'Réalisation de statistiques de visite et d’audience',
+                        description: 'Ces cookies nous permettent de réaliser des analyses statistiques de visites et d’audiences afin de mesurer l’attractivité du site et des services proposé',
                         toggle: {
                             value: 'necessary',
                             enabled: true,
                             readonly: true          // cookie categories with readonly=true are all treated as "necessary cookies"
                         }
                     }, {
-                        title: 'Performance and ads cookies',
-                        description: 'These cookies allow the website to remember the choices you have made in the past',
+                        title: 'Optimisation des fonctionnalités et personnalisation des services « rajouter les boutons',
+                        description: 'Ces cookies nous permettent de personnaliser le contenu de notre site afin d’améliorer votre expérience et d’optimiser votre navigation.',
                         toggle: {
                             value: 'ads',     // there are no default categories => you specify them
                             enabled: false,
@@ -134,8 +134,8 @@ cc.run({
                             }
                         ]
                     }, {
-                        title: 'Advertisement and Targeting cookies',
-                        description: 'These cookies collect information about how you use the website, which pages you visited and which links you clicked on. All of the data is anonymized and cannot be used to identify you',
+                        title: 'Gestion de nos actions publicitaires personnalisée rajouter les boutons ',
+                        description: 'Gestion de nos actions publicitaires personnalisées « rajouter les boutons »',
                         toggle: {
                             value: 'targeting',
                             enabled: false,
