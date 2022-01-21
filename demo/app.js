@@ -143,8 +143,8 @@ cc.run({
                         }
                     },
                     {
-                        title: 'Gestion de nos actions publicitaires personnalisée rajouter les boutons ',
-                        description: 'Gestion de nos actions publicitaires personnalisées « rajouter les boutons »',
+                        title: 'Partage sur les réseaux sociaux « rajouter les boutons »',
+                        description: 'Ces cookies déposés via les boutons réseaux sociaux ont pour finalité de permettre aux utilisateurs du site de faciliter le partage de contenu et d’améliorer la convivialité de notre Site.',
                         toggle: {
                             value: 'targeting',
                             enabled: false,
