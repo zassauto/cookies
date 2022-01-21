@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	
+
+	/*
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script type="text/plain" data-cookiecategory="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-TC1M8T8L2D"></script>
 <script>
@@ -10,7 +11,45 @@
   gtag('js', new Date());
   gtag('config', 'G-TC1M8T8L2D');
 </script>
-  
+  */
+	<!-- Global site tag (gtag.js) - Google AdWords: 1068309516 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1068309516"></script>
+
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  /*
+	// Si un problème de calcul de conversions est detecté(conversions non calculées), il faut commenter le code suivant : 
+    gtag('consent', 'default', {
+    'ad_storage': 'denied',
+	'analytics_storage': 'denied',
+	'functionality_storage': 'denied'
+  });
+	// fin du code a commenter 
+    */
+  gtag('js', new Date());
+  gtag('config', 'AW-1068309516');
+</script>
+
+	<!-- Event snippet for Prospect conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+	gtag('event', 'conversion', { 'send_to': 'AW-1068309516/YwzmCJb2QxCMuLT9Aw', 'event_callback': callback });
+	//gtag('event', 'conversion', { 'send_to': 'AW-1068309516/7DNQCJv7qeEBEIy4tP0D', 'value': 7.77, 'currency': 'EUR' });
+  return false;
+}
+</script>
+
+	
+	
 
     
     <meta charset="UTF-8">
