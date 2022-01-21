@@ -84,6 +84,10 @@ cc.run({
                 secondary_btn: {
                     text: 'Reject all',
                     role: 'accept_necessary'        // 'settings' or 'accept_necessary'
+                },
+                  secondary_btn: {
+                    text: 'Savee settings',
+                    role: 'c-settings'        // 'settings' or 'accept_necessary'
                 }
             },
             settings_modal: {
